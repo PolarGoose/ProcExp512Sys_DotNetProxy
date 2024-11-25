@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcExp512SysDotNetProxy", "src\lib\ProcExp512SysDotNetProxy.csproj", "{1E879D53-D4AB-4258-A0BE-3D804272333C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{269459CB-72CE-4740-B041-E50D9B6540EB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		src\Directory.Build.props = src\Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "src\test\Test.csproj", "{A56B7CB7-894E-410C-A673-EA8894DC1D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E879D53-D4AB-4258-A0BE-3D804272333C}.Debug|x64.ActiveCfg = Debug|x64
+		{1E879D53-D4AB-4258-A0BE-3D804272333C}.Debug|x64.Build.0 = Debug|x64
+		{1E879D53-D4AB-4258-A0BE-3D804272333C}.Release|x64.ActiveCfg = Release|x64
+		{1E879D53-D4AB-4258-A0BE-3D804272333C}.Release|x64.Build.0 = Release|x64
+		{A56B7CB7-894E-410C-A673-EA8894DC1D8B}.Debug|x64.ActiveCfg = Debug|x64
+		{A56B7CB7-894E-410C-A673-EA8894DC1D8B}.Debug|x64.Build.0 = Debug|x64
+		{A56B7CB7-894E-410C-A673-EA8894DC1D8B}.Release|x64.ActiveCfg = Release|x64
+		{A56B7CB7-894E-410C-A673-EA8894DC1D8B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E10DB604-337E-4A04-B82F-7B14D33EBAD3}
+	EndGlobalSection
+EndGlobal
